@@ -3,7 +3,7 @@ Project Blutan
 
 "MVC framework with personality issues believing it to be a cms" project for school
 
-Requirements
+## Requirements ##
 -   Accessible on Github
 -   Easy to install
 -   mod_rewrite
