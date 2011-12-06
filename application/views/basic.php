@@ -6,7 +6,6 @@
     <title>untitled</title>
 </head>
 <body>
-    <h1> hello from the view</h1>
-    <?php echo $first . ' ' . $last ;?>
+    <h2>Basic view loaded </h2>
 </body>
 </html>

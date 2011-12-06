@@ -1,6 +1,6 @@
 <?php
 
-class Modell{
+class Model{
 
     public function user_info(){
         return array(

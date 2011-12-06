@@ -1,7 +1,7 @@
 <?php
 
 require 'load.php';
-require 'modell/modell.php';
+require 'model/model.php';
 
 require 'controller/controller.php';
 

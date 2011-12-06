@@ -6,13 +6,13 @@ class Controller {
         public $modell;
         function __construct(){
             $this->load = new Load();
-            $this->modell = new Modell();
+            $this->model = new Model();
 
             $this->home();
         }
 
         function home(){
-            $data = $this->modell->user_info();
+            $data = $this->model->user_info();
             $this->load->view('basic.php', $data);
         }
 }
