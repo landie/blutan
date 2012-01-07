@@ -30,12 +30,11 @@ class Blutan {
 
         if(strlen(trim($controller)) > 0) {
             $controller = ucfirst(strtolower($controller));
-            echo "we're in";
             $action = strtolower($action);
 
-          if(@class_exists($controller)) {
-                echo "found controller";
-      //          $this->$controller = new $controller();
+            if(@class_exists($controller)) {
+                //echo "found controller";
+               $this->$controller = new $controller();
             }
         }
 
